@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title> CSS Animations </title>
+	<style>
+		div {
+			width: 100px;
+			height: 100px;
+			background: red;
+			animation-name: myfirst;
+			animation-duration: 10s;
+			position: relative;
+		}
+		
+		 
+		
+		@keyframes myfirst {
+							0% {background: red; left: 0px; top: 0px;}
+							25% {background: cyan; left: 300px; top: 0px;}
+							50% {background: blue; left: 300px; top: 200px;}
+							75% {background: green; left: 0px; top: 200px;}
+							100% {background: red; left: 0px; top: 0px;}
+		}
+	</style>
+</head>
+<body>
+<h1> CSS Animations </h1>
+<p> The above animation is created in html by using CSS properties </p>
+<div>
+</div>
+</body>
+</html>	
